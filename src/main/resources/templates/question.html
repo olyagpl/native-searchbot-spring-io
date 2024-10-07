@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SeachBot App</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body style="font-family: Verdana; color: #333232;">
+    <div class="container">
+        <h2 style="text-align: center;">Your interactive search bot!</h2> 
+        <form action="/answer" method="post">
+            <div class="input_wrap">
+                <label for="question">Question:</label>
+                <input type="text" name="question">
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
